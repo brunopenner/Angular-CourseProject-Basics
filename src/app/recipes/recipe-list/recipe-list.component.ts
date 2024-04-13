@@ -9,6 +9,8 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit{
   recipes: Recipe[] = [
+    new Recipe('A Test Recipe', 'This is simply a test', 'https://www.seriouseats.com/thmb/6f42-C_G_iTGaePdVUpO6GqCNHU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/20211201-fish-piccata-vicky-wasik-17-205e3c62dd94410f9fae9418417b4459.jpg'),
+    new Recipe('A Test Recipe', 'This is simply a test', 'https://www.seriouseats.com/thmb/6f42-C_G_iTGaePdVUpO6GqCNHU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/20211201-fish-piccata-vicky-wasik-17-205e3c62dd94410f9fae9418417b4459.jpg'),
     new Recipe('A Test Recipe', 'This is simply a test', 'https://www.seriouseats.com/thmb/6f42-C_G_iTGaePdVUpO6GqCNHU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/20211201-fish-piccata-vicky-wasik-17-205e3c62dd94410f9fae9418417b4459.jpg')
   ];
 
